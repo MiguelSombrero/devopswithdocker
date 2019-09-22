@@ -3,21 +3,25 @@
 ## 1.1
 
 $ docker ps -a
-CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES
--------------|-------|---------|---------|--------|-------|------
-5cef58805633 | mongo | "docker-entrypoint.s…" | 43 seconds ago | Exited (0) 2 seconds ago | | gallant_khayyam
-4377fd4b65a8 | redis | "docker-entrypoint.s…" | 2 minutes ago | Exited (0) 2 seconds ago | | keen_sinoussi
-c93db3eefffd | nginx | "nginx -g 'daemon of…" | 2 minutes ago | Up 2 minutes | 80/tcp | stupefied_jang
+
+CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |
+-------------|-------|---------|---------|--------|-------|-------|
+5cef58805633 | mongo | "docker-entrypoint.s…" | 43 seconds ago | Exited (0) 2 seconds ago | | gallant_khayyam |
+4377fd4b65a8 | redis | "docker-entrypoint.s…" | 2 minutes ago | Exited (0) 2 seconds ago | | keen_sinoussi |
+c93db3eefffd | nginx | "nginx -g 'daemon of…" | 2 minutes ago | Up 2 minutes | 80/tcp | stupefied_jang |
 
 
 ## 1.2
 
 $ docker ps -a
-CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES
--------------|-------|---------|---------|--------|-------|------
+
+CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |
+-------------|-------|---------|---------|--------|-------|-------|
+
 $ docker images
-REPOSITORY | TAG | IMAGE ID | CREATED | SIZE
--------------|-------|---------|---------|--------|-------|------
+
+REPOSITORY | TAG | IMAGE ID | CREATED | SIZE |
+-------------|-------|---------|---------|--------|
 
 
 ## 1.3
@@ -70,3 +74,12 @@ Commands
     touch logs.txt
     docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
 
+## 1.9
+
+Commands
+
+    docker run -d -p 80:80 devopsdockeruh/ports_exercise
+
+## 1.10
+
+[Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_10/Dockerfile)
