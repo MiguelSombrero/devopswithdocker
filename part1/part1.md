@@ -96,3 +96,26 @@ Commands
 
 ## 1.12
 
+[Dockerfile-frontend](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_12/frontend/Dockerfile)
+
+[Dockerfile-backend](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_12/backend/Dockerfile)
+
+Commands - backend
+
+    touch logs.txt
+    docker build -t backend .
+    docker run -v $(pwd)/logs.txt:/mydir/logs.txt -d -p 8000:8000 backend
+
+Commands - frontend
+
+    docker build -t frontend .
+    docker run -d -p 5000:5000 frontend
+
+## 1.13
+
+[Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_13/Dockerfile)
+
+Commands - frontend
+
+    docker build -t spring .
+    docker run -d -p 8080:8080 spring
