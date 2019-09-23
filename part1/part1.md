@@ -83,3 +83,16 @@ Commands
 ## 1.10
 
 [Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_10/Dockerfile)
+
+## 1.11
+
+[Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_11/Dockerfile)
+
+Commands
+
+    touch logs.txt
+    docker build -t backend .
+    docker run -v $(pwd)/logs.txt:/mydir/logs.txt -d -p 8000:8000 backend
+
+## 1.12
+
