@@ -115,7 +115,36 @@ Commands - frontend
 
 [Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_13/Dockerfile)
 
-Commands - frontend
+Commands
 
     docker build -t spring .
     docker run -d -p 8080:8080 spring
+
+## 1.14
+
+[Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_14/Dockerfile)
+
+Commands
+
+    docker build -t rails .
+    docker run -d -p 3000:3000 rails
+
+## 1.15
+
+[Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_15/Dockerfile)
+
+[DockerHub](https://hub.docker.com/r/miguelsombrero/bottlestash)
+
+To run this image
+
+    docker run -d -p 3000:3000 miguelsombrero/bottlestash
+
+To use app go with your browser to
+
+    http://localhost:3000/
+
+Notice that there is no backend running for this app, just the frontend.
+
+## 1.16
+
+
