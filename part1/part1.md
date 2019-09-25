@@ -147,4 +147,30 @@ Notice that there is no backend running for this app, just the frontend.
 
 ## 1.16
 
+(skipped)
+
+## 1.17
+
+[Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part1/part1_17/Dockerfile)
+
+[DockerHub](https://hub.docker.com/r/miguelsombrero/react)
+
+My favourite programming environment: Node.js (React)
+
+To run this image interactive mode
+
+    docker run -it -p 3000:3000 miguelsombrero/react
+
+Create new React app
+
+    npx create-react-app newapp
+
+Navigate to created app and run
+
+    cd /newapp
+    npm start
+
+See your app at
+
+     http://localhost:3001/
 
