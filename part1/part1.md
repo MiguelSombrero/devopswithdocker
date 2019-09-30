@@ -27,6 +27,7 @@ REPOSITORY | TAG | IMAGE ID | CREATED | SIZE |
 ## 1.3
 
 password: basics
+
 secret message: This is the secret message
 
 ## 1.4
@@ -35,7 +36,8 @@ Commands
 
     docker run -d -it devopsdockeruh/exec_bash_exercise
     docker exec f8 tail -f ./logs.txt
-    secret message: Docker is easy
+
+secret message: Docker is easy
 
 ## 1.5
 

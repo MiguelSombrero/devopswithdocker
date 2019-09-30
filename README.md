@@ -5,3 +5,5 @@ This repository is for University of Helsinki course [DevOps with Docker](https:
 ## Exercises
 
 [Part 1](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part1/part1.md)
+
+[Part 2](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part1/part2.md)

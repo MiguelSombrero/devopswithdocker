@@ -1,0 +1,18 @@
+version: '3'  
+
+services: 
+    frontend: 
+      image: compose_frontend
+      build:
+        context: ../../part1/part1_12/frontend
+        dockerfile: Dockerfile
+      ports: 
+        - 5000:5000
+
+    backend: 
+      image: compose_backend
+      build:
+        context: ../../part1/part1_12/backend
+        dockerfile: Dockerfile
+      ports: 
+        - 8000:8000 
