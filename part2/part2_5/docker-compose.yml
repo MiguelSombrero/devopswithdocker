@@ -1,0 +1,27 @@
+version: '3'  
+
+services: 
+    frontend: 
+      image: redis_frontend
+      build:
+        context: .
+        dockerfile: frontend.Dockerfile
+      ports: 
+        - 5000:5000
+      environment:
+        - API_URL=http://localhost:8000
+
+    backend: 
+      image: redis_backend
+      build:
+        context: .
+        dockerfile: backend.Dockerfile
+      ports: 
+        - 8000:8000
+      environment:
+        - FRONT_URL=http://localhost:5000
+        - REDIS=redis
+    
+    redis:
+      image: redis
+      
