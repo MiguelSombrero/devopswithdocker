@@ -28,3 +28,11 @@ Command
 
 ## 2.6
 
+[docker-compose.yml](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part2_6/docker-compose.yml)
+
+## 2.7
+
+[docker-compose.yml](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part2_7/docker-compose.yml)
+
+## 2.8
+
