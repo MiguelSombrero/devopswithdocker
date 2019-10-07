@@ -5,9 +5,6 @@
 [docker-compose.yml](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part2_1/docker-compose.yml)
 
 
-KESKEN KESKEN!
-
-
 ## 2.2
 
 [docker-compose.yml](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part2_2/docker-compose.yml)
@@ -36,3 +33,12 @@ Command
 
 ## 2.8
 
+[docker-compose.yml](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part2_8/docker-compose.yml)
+
+## 2.9
+
+[docker-compose.yml](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part2_9/docker-compose.yml)
+
+## 2.10
+
+(skipped)
