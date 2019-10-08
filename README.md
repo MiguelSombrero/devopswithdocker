@@ -8,4 +8,4 @@ This repository is for University of Helsinki course [DevOps with Docker](https:
 
 [Part 2](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part2.md)
 
-[Part 3](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part2/part3.md)
+[Part 3](https://github.com/MiguelSombrero/devopswithdocker/tree/master/part3/part3.md)
