@@ -35,4 +35,32 @@ Frontend image size was reduced with node:alpine image about 236MB and backend i
 
 ## 3.5
 
+[Dockerfile](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part3/part3_5/Dockerfile)
+
+Commands
+
+    docker build -t nginx-front
+    docker run -p 80:80 nginx-front
+
+## 3.6
+
+Frontend image size was before modifications 545MB and after that 256MB.
+
+[Dockerfile-before](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part3/part3_6/before.Dockerfile)
+
+[Dockerfile-after](https://github.com/MiguelSombrero/devopswithdocker/blob/master/part3/part3_6/after.Dockerfile)
+
+Commands
+
+Before:
+
+    docker build -t front-before -f before.Dockerfile .
+    docker run -p 3000:3000 front-before
+
+After:
+
+    docker build -t front-after -f after.Dockerfile .
+    docker run -p 3000:3000 front-after
+
+## 3.7
 
